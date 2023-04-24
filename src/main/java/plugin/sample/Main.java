@@ -62,7 +62,7 @@ public final class Main extends JavaPlugin implements Listener {
                 .with(Type.BALL_LARGE)
                 .withFlicker()
                 .build());
-        fireworkMeta.setPower(2 + (2 * 2 / 2));
+        fireworkMeta.setPower(3 + (2 * 2 / 2));
 
         // 追加した情報で再設定する。
         firework.setFireworkMeta(fireworkMeta);
@@ -84,5 +84,6 @@ public final class Main extends JavaPlugin implements Listener {
     player.getInventory().setContents(itemStacks);
 
   }
+  //DAY20 課題03 にチャレンジ！！
 }
 
